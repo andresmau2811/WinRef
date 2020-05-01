@@ -1,0 +1,105 @@
+private async Task<byte[]> GenerarDocumentoDePagoPDF(Response_ObtenerEstadoCuenta entidad, string ruta)
+        {
+            string body = string.Empty;
+            ruta = ConfigurationManager.AppSettings["Ruta_BodyDocPago"].ToString();
+            using (StreamReader reader = new StreamReader(ruta))
+            {
+                body = reader.ReadToEnd();
+            }
+
+            body = body.Replace("{NOMBRE_CLIENTE}", entidad.EstadoCuenta.NombreCliente);
+            //Direccion ???
+            body = body.Replace("{DIRECCION}", entidad.EstadoCuenta.Direccion);
+            //Ciudad de correspondencia
+            body = body.Replace("{CIUDAD_CORRESPONDENCIA}", entidad.EstadoCuenta.Ciudad + ", ");
+            body = body.Replace("{DEPTO_CORRESPONDENCIA}", entidad.EstadoCuenta.Departamento + ", COLOMBIA");
+            body = body.Replace("{IDENTIFICACION_CLIENTE}", entidad.EstadoCuenta.IdentificacionCliente.PadLeft(16,'0'));
+
+            //Tarjeta de recaudo  //OBLIGACION
+            body = body.Replace("{OBLIGACION}", entidad.EstadoCuenta.Obligacion);
+            //Codigo de recaudo
+
+            body = body.Replace("{VALOR_CUOTA}", "$" + entidad.EstadoCuenta.PagoMinimo != null ?
+                Convert.ToDecimal(entidad.EstadoCuenta.PagoMinimo).ToString("0,0") : "0");
+            //Total a pagar
+            body = body.Replace("{TOTAL_PAGAR}", "$" + entidad.EstadoCuenta.PagoMinimo != null ?
+                Convert.ToDecimal(entidad.EstadoCuenta.PagoMinimo).ToString("0,0") : "0");
+
+            #region
+            /*
+             El dato 1(415) dato numérico fijo. Por defecto debe enviar 7709998012110.
+             El dato 2 (8020) Corresponde a la referencia de pago en este caso es el número del crédito. Campo numérico de 16 caracteres. 
+             El dato 3 (3900) Corresponde al valor del Pago Mínimo sin separador ni decimales. Es el mismo valor que se registra en la casilla valor a pagar. Campo numérico de 14 caracteres relleno con ceros a la izquierda
+             El dato 4 (96) Corresponde a la fecha Limite de Pago para créditos que no están en mora. Para créditos en mora, 
+                debe mostrar el mismo día de impresión del documento más dos días. Formato AAAAMMDD longitud 8 caracteres */                                  
+            
+            string referenciaPago = entidad.EstadoCuenta.Obligacion.Length == 17 ? 
+                entidad.EstadoCuenta.Obligacion.Substring(1,16) : entidad.EstadoCuenta.Obligacion.PadLeft(16,'0');
+            long pagoMinimo = Convert.ToInt64(entidad.EstadoCuenta.PagoMinimo);
+            string valorPagoMinimo = pagoMinimo.ToString().PadLeft(14,'0');            
+            string fechaLimitePago = string.Format("{0:yyyyMMdd}", entidad.EstadoCuenta.FechaLimitePago);
+
+            string codigo = string.Format("{0}415{1}8020{2}{3}3900{4}{5}96{6}"
+                , Vintasoft.Barcode.BarcodeInfo.NonDataFlags.Fnc1
+                , "7709998012110" //GTIN
+                , referenciaPago
+                , Vintasoft.Barcode.BarcodeInfo.NonDataFlags.Fnc1
+                , valorPagoMinimo
+                , Vintasoft.Barcode.BarcodeInfo.NonDataFlags.Fnc1
+                , fechaLimitePago
+                );
+                
+            //    "4157709998012110";
+            //codigo += $"8020{referenciaPago}";
+            //codigo += $"3900{valorPagoMinimo}";
+            //codigo += $"96{fechaLimitePago}";
+
+            string print = "(415)7709998012110";
+            print += $"(8020){referenciaPago}";
+            print += $"(3900){valorPagoMinimo}";
+            print += $"(96){fechaLimitePago}";
+
+            //Código de barras
+            //string barCode = GenerarCodigoDeBarras(codigo, ruta);
+            Image image = _codigoBarras.getBarcode(codigo, 1100, 100, print);
+                        
+            try
+            {
+                string path = ConfigurationManager.AppSettings["Ruta_DocsPDF"].ToString() + Guid.NewGuid().ToString() + "BarcodePNG.png";
+                image.Save(path, System.Drawing.Imaging.ImageFormat.Png);
+
+                byte[] imageArray = File.ReadAllBytes($@"{path}");
+                string base64ImageBarCode = Convert.ToBase64String(imageArray);
+                File.Delete(path);
+                body = body.Replace("{BAR_CODE}", base64ImageBarCode);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException<string>("Error Guardando Imagen : ", ex.InnerException.Message + "  " + ex.Message);
+            }
+
+            var fechaActual = DateTime.Now;
+
+            body = body.Replace("{DIA_IMP_DOC}", fechaActual.Day.ToString());
+            body = body.Replace("{MES_IMP_DOC}", fechaActual.Month.ToString());
+            body = body.Replace("{ANIO_IMP_DOC}", fechaActual.Year.ToString());
+
+            DateTime fechaVencimiento = DateTime.Now.AddMonths(1);
+
+            string limitePago = "INMEDIATO";
+            if (entidad.EstadoCuenta.DiasMora < 16)
+            {
+                limitePago = $@"Día <label class='bg-label-white'>{entidad.EstadoCuenta.FechaLimitePago.GetValueOrDefault().Day}</label>"
+                        + $" Mes <label class='bg-label-white'>{entidad.EstadoCuenta.FechaLimitePago.GetValueOrDefault().Month}</label>"
+                        + $" Año <label class='bg-label-white'>{entidad.EstadoCuenta.FechaLimitePago.GetValueOrDefault().Year}</label>";
+
+            }
+            body = body.Replace("{LIMITE_PAGO}", limitePago);
+
+            //body = body.Replace("{DIA_LIMT_PAGO}", entidad.EstadoCuenta.FechaLimitePago.GetValueOrDefault().Day.ToString());
+            //body = body.Replace("{MES_LIMT_PAGO}", entidad.EstadoCuenta.FechaLimitePago.GetValueOrDefault().Month.ToString());
+            //body = body.Replace("{ANIO_LIMT_PAGO}", entidad.EstadoCuenta.FechaLimitePago.GetValueOrDefault().Year.ToString());
+
+            #endregion
+            return await CrearDocumentoDePago(body, ruta);
+        }

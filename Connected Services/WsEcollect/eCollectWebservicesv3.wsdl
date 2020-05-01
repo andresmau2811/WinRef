@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.avisortech.com/eCollectWebservices" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.avisortech.com/eCollectWebservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.avisortech.com/eCollectWebservices">
+      <s:element name="getTransactionInformation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:getTransactionInformationType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="getTransactionInformationType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EntityCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getTransactionInformationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTransactionInformationResult" type="tns:getTransactionInformationResponseType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="getTransactionInformationResponseType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EntityCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TrazabilityCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TranState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransValue" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransVatValue" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="PayCurrency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CurrencyRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="BankProcessDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="FICode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BankName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentSystem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TransCycle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Invoice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ReferenceArray" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthReferenceArray" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OperationArray" type="tns:operationType" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="RetriesTicketId" type="tns:retriesTicketIdType" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AdditionalInfoArray" type="tns:AdditionalInfoType" />
+          <s:element minOccurs="0" maxOccurs="1" name="SrvCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="operationType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="OperCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlagDBCR" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OperDesc" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Value" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="retriesTicketIdType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TicketId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TranState" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AdditionalInfoType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="InfoCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InfoData" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getBankList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:getBankListType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="getBankListType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EntityCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getBankListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getBankListResult" type="tns:ArrayOfGetBankListResponseType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfGetBankListResponseType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="getBankListResponseType" nillable="true" type="tns:getBankListResponseType" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="getBankListResponseType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="paymentSystem" type="s:nonNegativeInteger" />
+          <s:element minOccurs="0" maxOccurs="1" name="financialInstitutionCode" type="s:nonNegativeInteger" />
+          <s:element minOccurs="0" maxOccurs="1" name="financialInstitutionName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="createTransactionPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:createTransactionType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="createTransactionType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EntityCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SrvCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransValue" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransVatValue" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="SrvCurrency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="URLResponse" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="URLRedirect" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SignFields" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ReferenceArray" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentSystem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FICode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Invoice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PolicyCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthReferenceArray" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ItemArray" type="tns:itemType" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SubservicesArray" type="tns:subserviceType" />
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AdditionalInfoArray" type="tns:AdditionalInfoType" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="itemType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ItemCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlagDBCR" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ItemQty" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ItemDesc" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Value" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="subserviceType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EntityCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SrvCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ValueType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransValue" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransVatValue" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="createTransactionPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="createTransactionPaymentResult" type="tns:createTransactionResponseType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="createTransactionResponseType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="eCollectUrl" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="processTransactionPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:createTransactionType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="processTransactionPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="processTransactionPaymentResult" type="tns:getTransactionInformationResponseType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getTransactionInformationSoapIn">
+    <wsdl:part name="parameters" element="tns:getTransactionInformation" />
+  </wsdl:message>
+  <wsdl:message name="getTransactionInformationSoapOut">
+    <wsdl:part name="parameters" element="tns:getTransactionInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="getBankListSoapIn">
+    <wsdl:part name="parameters" element="tns:getBankList" />
+  </wsdl:message>
+  <wsdl:message name="getBankListSoapOut">
+    <wsdl:part name="parameters" element="tns:getBankListResponse" />
+  </wsdl:message>
+  <wsdl:message name="createTransactionPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:createTransactionPayment" />
+  </wsdl:message>
+  <wsdl:message name="createTransactionPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:createTransactionPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="processTransactionPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:processTransactionPayment" />
+  </wsdl:message>
+  <wsdl:message name="processTransactionPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:processTransactionPaymentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="eCollectWebservicesv3Soap">
+    <wsdl:operation name="getTransactionInformation">
+      <wsdl:input message="tns:getTransactionInformationSoapIn" />
+      <wsdl:output message="tns:getTransactionInformationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getBankList">
+      <wsdl:input message="tns:getBankListSoapIn" />
+      <wsdl:output message="tns:getBankListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createTransactionPayment">
+      <wsdl:input message="tns:createTransactionPaymentSoapIn" />
+      <wsdl:output message="tns:createTransactionPaymentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="processTransactionPayment">
+      <wsdl:input message="tns:processTransactionPaymentSoapIn" />
+      <wsdl:output message="tns:processTransactionPaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="eCollectWebservicesv3Soap" type="tns:eCollectWebservicesv3Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getTransactionInformation">
+      <soap:operation soapAction="http://www.avisortech.com/eCollectWebservices/getTransactionInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBankList">
+      <soap:operation soapAction="http://www.avisortech.com/eCollectWebservices/getBankList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createTransactionPayment">
+      <soap:operation soapAction="http://www.avisortech.com/eCollectWebservices/createTransactionPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="processTransactionPayment">
+      <soap:operation soapAction="http://www.avisortech.com/eCollectWebservices/processTransactionPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="eCollectWebservicesv3Soap12" type="tns:eCollectWebservicesv3Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getTransactionInformation">
+      <soap12:operation soapAction="http://www.avisortech.com/eCollectWebservices/getTransactionInformation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBankList">
+      <soap12:operation soapAction="http://www.avisortech.com/eCollectWebservices/getBankList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createTransactionPayment">
+      <soap12:operation soapAction="http://www.avisortech.com/eCollectWebservices/createTransactionPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="processTransactionPayment">
+      <soap12:operation soapAction="http://www.avisortech.com/eCollectWebservices/processTransactionPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="eCollectWebservicesv3">
+    <wsdl:port name="eCollectWebservicesv3Soap" binding="tns:eCollectWebservicesv3Soap">
+      <soap:address location="https://test1.e-collect.com/app_Express/webservice/eCollectWebservicesv3.asmx" />
+    </wsdl:port>
+    <wsdl:port name="eCollectWebservicesv3Soap12" binding="tns:eCollectWebservicesv3Soap12">
+      <soap12:address location="https://test1.e-collect.com/app_Express/webservice/eCollectWebservicesv3.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
