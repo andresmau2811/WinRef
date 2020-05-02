@@ -1,0 +1,179 @@
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.Properties.Resources.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\winRef.exe.config
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\itextsharp.dll
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\itextsharp.xml
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.csproj.CopyComplete
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\bin\Debug\winRef.exe.config
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\bin\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\bin\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\bin\Debug\itextsharp.dll
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\bin\Debug\itextsharp.xml
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.Properties.Resources.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.csproj.CopyComplete
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winRef_1.0.0.0\obj\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\bin\Debug\winRef.exe.config
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\bin\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\bin\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\bin\Debug\itextsharp.dll
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\bin\Debug\itextsharp.xml
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.Properties.Resources.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.csproj.CopyComplete
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.0\obj\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\bin\Debug\winRef.exe.config
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\bin\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\bin\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\bin\Debug\itextsharp.dll
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\bin\Debug\itextsharp.xml
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.Properties.Resources.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.csproj.CopyComplete
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.1\obj\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\bin\Debug\winRef.exe.config
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\bin\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\bin\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\bin\Debug\itextsharp.dll
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\bin\Debug\itextsharp.xml
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.Properties.Resources.resources
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.csproj.CopyComplete
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\Entregas\20190705\WinRef\winRef_1.0.0.2\obj\Debug\winRef.pdb
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\bin\Debug\winRef.exe
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\bin\Debug\winRef.exe.config
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\bin\Debug\itextsharp.dll
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\bin\Debug\itextsharp.xml
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.Properties.Resources.resources
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.csproj.CopyComplete
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.exe
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.pdb
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\bin\Debug\winRef.pdb
+C:\DOCUMENTACION PROYECTO APP- PAGOS\FUENTES\Desarrollo\winRef_1.0.0.3\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\bin\Debug\winRef.exe.config
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\bin\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\bin\Debug\winRef.pdb
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\bin\Debug\itextsharp.dll
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\bin\Debug\itextsharp.xml
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.Properties.Resources.resources
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.csproj.CopyComplete
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.exe
+C:\Users\andre\Documents\Proyectos Andres\WinRef\winRef_1.0.0.3\obj\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\trunk\bin\Debug\winRef.exe.config
+C:\SolucionesSAS\WinRef\trunk\bin\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\trunk\bin\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\trunk\bin\Debug\itextsharp.dll
+C:\SolucionesSAS\WinRef\trunk\bin\Debug\itextsharp.xml
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.Properties.Resources.resources
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.csproj.CopyComplete
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\trunk\obj\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20190911\bin\Debug\winRef.exe.config
+C:\SolucionesSAS\WinRef\branches\20190911\bin\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20190911\bin\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20190911\bin\Debug\itextsharp.dll
+C:\SolucionesSAS\WinRef\branches\20190911\bin\Debug\itextsharp.xml
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.Properties.Resources.resources
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.csproj.CopyComplete
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20190911\obj\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20190925\bin\Debug\winRef.exe.config
+C:\SolucionesSAS\WinRef\branches\20190925\bin\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20190925\bin\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20190925\bin\Debug\itextsharp.dll
+C:\SolucionesSAS\WinRef\branches\20190925\bin\Debug\itextsharp.xml
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.Properties.Resources.resources
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.csproj.CopyComplete
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20190925\obj\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20191106\bin\Debug\winRef.exe.config
+C:\SolucionesSAS\WinRef\branches\20191106\bin\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20191106\bin\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20191106\bin\Debug\itextsharp.dll
+C:\SolucionesSAS\WinRef\branches\20191106\bin\Debug\itextsharp.xml
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.Properties.Resources.resources
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.csproj.CopyComplete
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20191106\obj\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20200208\bin\Debug\winRef.exe.config
+C:\SolucionesSAS\WinRef\branches\20200208\bin\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20200208\bin\Debug\winRef.pdb
+C:\SolucionesSAS\WinRef\branches\20200208\bin\Debug\itextsharp.dll
+C:\SolucionesSAS\WinRef\branches\20200208\bin\Debug\itextsharp.xml
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.csprojAssemblyReference.cache
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.Formularios.frmConfiguracionBaseDatos.resources
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.Formularios.frmProcesoEntregas.resources
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.Properties.Resources.resources
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.csproj.GenerateResource.cache
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.csproj.CoreCompileInputs.cache
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.csproj.CopyComplete
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.exe
+C:\SolucionesSAS\WinRef\branches\20200208\obj\Debug\winRef.pdb

@@ -1,0 +1,15 @@
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\winEntregas.exe.config
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\winEntregas.exe
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\winEntregas.pdb
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\itextsharp.dll
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\bin\Debug\itextsharp.xml
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winCrediprocesos.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winEntregas.Formularios.frmConfiguracionBaseDatos.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winEntregas.Formularios.frmFecha.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winEntregas.Formularios.frmProcesoEntregas.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winEntregas.Properties.Resources.resources
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winCrediprocesos.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winCrediprocesos.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winCrediprocesos.csproj.CopyComplete
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winEntregas.exe
+C:\Users\andre\Documents\Proyectos Andres\AppPagos\winEntregas_1.0.0.6\obj\Debug\winEntregas.pdb

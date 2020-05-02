@@ -1,0 +1,13 @@
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\bin\Release\winEntregas.exe.config
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\bin\Release\winEntregas.exe
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\bin\Release\winEntregas.pdb
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\bin\Release\dllRecaudos.dll
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\bin\Release\dllRecaudos.pdb
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.csprojResolveAssemblyReference.cache
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.Formularios.frmConfiguracionBaseDatos.resources
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.Formularios.frmProcesoEntregas.resources
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.Properties.Resources.resources
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.csproj.GenerateResource.Cache
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.exe
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.pdb
+D:\Proyectos\CrediValores\CredVal_Recaudos\winRecaudos\winEntregas\obj\Release\winEntregas.Formularios.frmFecha.resources
